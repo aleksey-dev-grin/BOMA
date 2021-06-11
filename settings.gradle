@@ -1,3 +1,4 @@
 rootProject.name = "BOMA"
 include ':app'
 include ':3_2_firstapp'
+include ':4_colordescriptor'
