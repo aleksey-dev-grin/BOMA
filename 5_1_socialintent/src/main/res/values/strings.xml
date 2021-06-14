@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">5_1_SocialIntent</string>
+    <string name="send">Send</string>
+    <string name="chooser_title">Make your choose:</string>
+</resources>
