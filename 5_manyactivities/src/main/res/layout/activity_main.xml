@@ -10,11 +10,13 @@
         android:id="@+id/editTextMsg"
         android:layout_width="match_parent"
         android:layout_height="86dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="@string/write_text_and_push_the_button"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,11 +24,10 @@
         android:id="@+id/buttonSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:text="@string/push_the_button"
+        android:layout_marginTop="64dp"
         android:onClick="onClickSendMsg"
+        android:text="@string/push_the_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextMessage" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextMsg" />
 </androidx.constraintlayout.widget.ConstraintLayout>
